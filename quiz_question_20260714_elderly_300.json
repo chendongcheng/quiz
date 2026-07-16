@@ -19,24 +19,24 @@
     "options_json": [
       {
         "key": "A",
-        "text": "食物多样、规律进餐，并优先选择营养密度高的食物"
+        "text": "食物多样、规律进餐，优先选营养密度高的食物"
       },
       {
         "key": "B",
-        "text": "只吃自己最习惯的一两种主食"
+        "text": "以习惯的主食为主，少搭配其他种类"
       },
       {
         "key": "C",
-        "text": "晚餐吃得越少越有利于长寿"
+        "text": "晚餐尽量少吃，其他餐随意"
       },
       {
         "key": "D",
-        "text": "完全不吃油脂和肉类"
+        "text": "尽量少吃油脂，肉类每天不超过半两"
       }
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "老年人日常饮食最应强调的总体原则是？",
+    "question_text": "老年人日常饮食应优先强调的总体原则是？",
     "correct_option": "A",
     "difficulty_level": 1,
     "reference_source": "老年营养与膳食指南科普",
@@ -62,7 +62,7 @@
     "options_json": [
       {
         "key": "A",
-        "text": "让所有慢病都不需要治疗"
+        "text": "有助于减少部分慢病用药剂量"
       },
       {
         "key": "B",
@@ -70,16 +70,16 @@
       },
       {
         "key": "C",
-        "text": "使每餐热量自动降为零"
+        "text": "显著降低每餐的总热量"
       },
       {
         "key": "D",
-        "text": "完全替代蔬菜和水果"
+        "text": "可以替代蔬菜水果的部分营养"
       }
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "把一部分精白米面换成燕麦、糙米或全麦食品，主要好处是？",
+    "question_text": "把一部分精白米面换成燕麦、糙米或全麦食品，好处主要是？",
     "correct_option": "B",
     "difficulty_level": 1,
     "reference_source": "老年营养与膳食指南科普",
@@ -105,19 +105,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "只吃土豆和山药，不吃叶菜"
+        "text": "以土豆和山药为主，叶菜少量搭配"
       },
       {
         "key": "B",
-        "text": "蔬菜全部榨汁后过滤掉渣"
+        "text": "蔬菜榨汁饮用，滤掉菜渣"
       },
       {
         "key": "C",
-        "text": "深色叶菜、红黄色蔬菜、菌菇和豆类蔬菜轮换吃"
+        "text": "深色叶菜、红黄色蔬菜和菌菇轮换"
       },
       {
         "key": "D",
-        "text": "每天只吃同一种凉拌菜"
+        "text": "每天固定一种凉拌菜"
       }
     ],
     "correct_count": 0,
@@ -208,7 +208,7 @@
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "老年人长期蛋白质摄入不足，最容易影响的是？",
+    "question_text": "老年人长期蛋白质摄入不足，容易影响的是？",
     "correct_option": "A",
     "difficulty_level": 1,
     "reference_source": "老年营养与膳食指南科普",
@@ -277,19 +277,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "能完全替代所有药物"
+        "text": "可以替代部分降压药"
       },
       {
         "key": "B",
-        "text": "会让所有人尿酸都升高"
+        "text": "可能引起尿酸升高"
       },
       {
         "key": "C",
-        "text": "提供植物蛋白，也可帮助丰富膳食结构"
+        "text": "提供植物蛋白，丰富膳食结构"
       },
       {
         "key": "D",
-        "text": "只适合年轻人食用"
+        "text": "更适合中年人食用"
       }
     ],
     "correct_count": 0,
@@ -578,19 +578,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "只靠泻药长期解决"
+        "text": "长期靠缓泻药来解决便秘"
       },
       {
         "key": "B",
-        "text": "逐步增加全谷物、蔬果和豆类，并配合饮水活动"
+        "text": "增加全谷物、蔬果和豆类摄入"
       },
       {
         "key": "C",
-        "text": "完全不吃主食"
+        "text": "尽量减少主食的摄入量"
       },
       {
         "key": "D",
-        "text": "大量吃油炸食品"
+        "text": "多吃油炸食品来润肠"
       }
     ],
     "correct_count": 0,
@@ -621,19 +621,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "只有非常口渴才喝"
+        "text": "感觉口渴时再喝水"
       },
       {
         "key": "B",
-        "text": "用浓茶完全代替白水"
+        "text": "以淡茶水代替白水"
       },
       {
         "key": "C",
-        "text": "少量多次，观察尿色和身体情况调整"
+        "text": "少量多次，观察尿色调整"
       },
       {
         "key": "D",
-        "text": "睡前一次性大量喝水"
+        "text": "睡前一次喝够全天水量"
       }
     ],
     "correct_count": 0,
@@ -664,11 +664,11 @@
     "options_json": [
       {
         "key": "A",
-        "text": "白开水"
+        "text": "白开水和淡茶"
       },
       {
         "key": "B",
-        "text": "新鲜黄瓜"
+        "text": "新鲜黄瓜和番茄"
       },
       {
         "key": "C",
@@ -676,12 +676,12 @@
       },
       {
         "key": "D",
-        "text": "酱油、咸菜、腌肉、调味酱等隐形盐"
+        "text": "酱油、咸菜和调味酱等"
       }
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "控制盐摄入时，最容易被忽视的一类来源是？",
+    "question_text": "控制盐摄入时，容易被忽视的一类来源是？",
     "correct_option": "D",
     "difficulty_level": 1,
     "reference_source": "老年营养与膳食指南科普",
@@ -750,19 +750,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "把白糖换成红糖就不限量"
+        "text": "把白糖换成红糖即可不限量"
       },
       {
         "key": "B",
-        "text": "少喝含糖饮料，减少甜点和加糖零食频率"
+        "text": "少喝含糖饮料，减少甜点频率"
       },
       {
         "key": "C",
-        "text": "只在夜里吃甜食"
+        "text": "把甜食集中在夜间吃"
       },
       {
         "key": "D",
-        "text": "用果汁完全代替水果"
+        "text": "用果汁代替部分水果"
       }
     ],
     "correct_count": 0,
@@ -783,7 +783,7 @@
     ],
     "use_count": 0,
     "created_at": "2026-07-14 10:00:00",
-    "difficulty": "NORMAL",
+    "difficulty": "EASY",
     "risk_level": 1,
     "updated_at": "2026-07-14 10:00:00",
     "explanation": "脂肪不是越少越好，关键是控制总量和脂肪来源。",
@@ -793,26 +793,26 @@
     "options_json": [
       {
         "key": "A",
-        "text": "只看油是否标注植物油，不再控制用量"
+        "text": "选标有植物油的油即可，不必控量"
       },
       {
         "key": "B",
-        "text": "把动物油全部换成椰子油后不限量"
+        "text": "把动物油换成椰子油后可不限量"
       },
       {
         "key": "C",
-        "text": "控制总量，优先选择植物油并少用动物油"
+        "text": "控制总量，优先选植物油"
       },
       {
         "key": "D",
-        "text": "完全不吃油，认为越低脂越护心"
+        "text": "尽量不吃油，越低脂越护心"
       }
     ],
     "correct_count": 0,
     "quality_score": 89,
     "question_text": "保护心血管健康时，烹调用油较合理的原则是？",
     "correct_option": "C",
-    "difficulty_level": 2,
+    "difficulty_level": 1,
     "reference_source": "老年营养与膳食指南科普",
     "semantic_fingerprint": "9d02f98c6a66df2a0e256eab8eb7da6c"
   },
@@ -826,7 +826,7 @@
     ],
     "use_count": 0,
     "created_at": "2026-07-14 10:00:00",
-    "difficulty": "NORMAL",
+    "difficulty": "EASY",
     "risk_level": 1,
     "updated_at": "2026-07-14 10:00:00",
     "explanation": "坚果含有益脂肪和矿物质，但能量密度高，原味少量更适合。",
@@ -855,7 +855,7 @@
     "quality_score": 89,
     "question_text": "老人把坚果作为零食时，哪种吃法更合适？",
     "correct_option": "D",
-    "difficulty_level": 2,
+    "difficulty_level": 1,
     "reference_source": "老年营养与膳食指南科普",
     "semantic_fingerprint": "780af7ad70d727b6d861504c2f929608"
   },
@@ -879,19 +879,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "上午能量和营养供应不足，影响体力和用药安排"
+        "text": "能量不足，影响体力和用药"
       },
       {
         "key": "B",
-        "text": "一定能减掉内脏脂肪"
+        "text": "有助于减掉内脏脂肪"
       },
       {
         "key": "C",
-        "text": "会自动改善骨密度"
+        "text": "可能改善骨密度"
       },
       {
         "key": "D",
-        "text": "能替代午休"
+        "text": "可减少对午休的需要"
       }
     ],
     "correct_count": 0,
@@ -922,19 +922,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "先只喝白粥和汤，等胃口恢复后再补蛋白"
+        "text": "先喝白粥和汤，胃口恢复后再补蛋白"
       },
       {
         "key": "B",
-        "text": "少量多餐，优先保证蛋白质和营养密度"
+        "text": "少量多餐，优先保证蛋白质"
       },
       {
         "key": "C",
-        "text": "把菜做得更咸更辣来刺激食欲"
+        "text": "把菜做咸辣一些刺激食欲"
       },
       {
         "key": "D",
-        "text": "减少正餐次数，避免胃肠负担"
+        "text": "减少正餐次数，减轻胃肠负担"
       }
     ],
     "correct_count": 0,
@@ -982,7 +982,7 @@
     ],
     "correct_count": 0,
     "quality_score": 92,
-    "question_text": "老人没有主动减重却体重明显下降，第一步最应抓住哪类信息？",
+    "question_text": "老人没有主动减重却体重明显下降，首先应了解哪类信息？",
     "correct_option": "C",
     "difficulty_level": 3,
     "reference_source": "老年营养与膳食指南科普",
@@ -1051,19 +1051,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "把食材切小煮软，同时保留食物种类"
+        "text": "把食材切小煮软，保留食物种类"
       },
       {
         "key": "B",
-        "text": "只吃稀饭和咸菜"
+        "text": "以稀饭和咸菜为主"
       },
       {
         "key": "C",
-        "text": "完全不吃蔬菜和肉类"
+        "text": "减少蔬菜和肉类的种类"
       },
       {
         "key": "D",
-        "text": "所有食物都油炸到酥脆"
+        "text": "把食物油炸到酥脆更易嚼"
       }
     ],
     "correct_count": 0,
@@ -1180,19 +1180,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "能稳定深睡眠整晚不醒"
+        "text": "有助于整晚不醒的深睡眠"
       },
       {
         "key": "B",
-        "text": "能完全替代安眠药"
+        "text": "可以替代安眠药"
       },
       {
         "key": "C",
-        "text": "能降低所有慢病风险"
+        "text": "能降低多种慢病风险"
       },
       {
         "key": "D",
-        "text": "可能破坏睡眠质量并增加跌倒和用药风险"
+        "text": "可能破坏睡眠质量，增加跌倒风险"
       }
     ],
     "correct_count": 0,
@@ -1213,7 +1213,7 @@
     ],
     "use_count": 0,
     "created_at": "2026-07-14 10:00:00",
-    "difficulty": "NORMAL",
+    "difficulty": "EASY",
     "risk_level": 1,
     "updated_at": "2026-07-14 10:00:00",
     "explanation": "咖啡因作用可持续数小时，晚间摄入可能影响入睡和睡眠质量。",
@@ -1242,7 +1242,7 @@
     "quality_score": 89,
     "question_text": "容易失眠的老人喝咖啡或浓茶，较合适的做法是？",
     "correct_option": "A",
-    "difficulty_level": 2,
+    "difficulty_level": 1,
     "reference_source": "老年营养与膳食指南科普",
     "semantic_fingerprint": "aab0b42f85002f475bdfe9985874343b"
   },
@@ -1352,19 +1352,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "主食占大半盘，蔬菜和蛋白少量点缀"
+        "text": "主食占大半盘，蔬菜蛋白少量点缀"
       },
       {
         "key": "B",
-        "text": "只用水果替代蔬菜和主食"
+        "text": "以水果替代蔬菜和主食"
       },
       {
         "key": "C",
-        "text": "少吃主食和蛋白，主要喝汤增加饱腹感"
+        "text": "少吃主食蛋白，多喝汤增饱腹"
       },
       {
         "key": "D",
-        "text": "蔬菜、适量主食、优质蛋白和少量健康油脂"
+        "text": "蔬菜、适量主食和优质蛋白"
       }
     ],
     "correct_count": 0,
@@ -1412,7 +1412,7 @@
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "老人外出就餐想少盐少油，点餐时更合适的是？",
+    "question_text": "老人外出就餐想吃得清淡些，点餐时更合适的是？",
     "correct_option": "A",
     "difficulty_level": 1,
     "reference_source": "老年营养与膳食指南科普",
@@ -1455,7 +1455,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "很多老人喜欢用菜汤拌饭，健康上最需注意的是？",
+    "question_text": "很多老人喜欢用菜汤拌饭，健康上需要注意的是？",
     "correct_option": "B",
     "difficulty_level": 2,
     "reference_source": "老年营养与膳食指南科普",
@@ -1471,7 +1471,7 @@
     ],
     "use_count": 0,
     "created_at": "2026-07-14 10:00:00",
-    "difficulty": "NORMAL",
+    "difficulty": "EASY",
     "risk_level": 1,
     "updated_at": "2026-07-14 10:00:00",
     "explanation": "加工肉通常盐分和脂肪较高，不宜作为主要蛋白来源。",
@@ -1500,7 +1500,7 @@
     "quality_score": 89,
     "question_text": "香肠、腊肉、火腿等加工肉制品，老年人应怎样吃更合适？",
     "correct_option": "C",
-    "difficulty_level": 2,
+    "difficulty_level": 1,
     "reference_source": "老年营养与膳食指南科普",
     "semantic_fingerprint": "43bb0fcf063b9975d663ff92b242096c"
   },
@@ -1524,24 +1524,24 @@
     "options_json": [
       {
         "key": "A",
-        "text": "完全没有任何热量"
+        "text": "基本没有热量"
       },
       {
         "key": "B",
-        "text": "能补充大量维生素D"
+        "text": "能补充较多维生素D"
       },
       {
         "key": "C",
-        "text": "能让血脂自动下降"
+        "text": "有助于降低血脂"
       },
       {
         "key": "D",
-        "text": "能量和脂肪较高，可能增加消化和代谢负担"
+        "text": "能量和脂肪较高，增加代谢负担"
       }
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "油条、炸糕、炸鸡等油炸食品，老年人不宜频繁吃的主要原因是？",
+    "question_text": "油条、炸糕、炸鸡等油炸食品，老年人不宜频繁吃，主要因为？",
     "correct_option": "D",
     "difficulty_level": 1,
     "reference_source": "老年营养与膳食指南科普",
@@ -1600,7 +1600,7 @@
     ],
     "use_count": 0,
     "created_at": "2026-07-14 10:00:00",
-    "difficulty": "NORMAL",
+    "difficulty": "EASY",
     "risk_level": 1,
     "updated_at": "2026-07-14 10:00:00",
     "explanation": "体重管理应兼顾营养和可持续性，极端节食容易造成肌肉和营养损失。",
@@ -1610,26 +1610,26 @@
     "options_json": [
       {
         "key": "A",
-        "text": "主要靠代餐粉，正餐越少越好"
+        "text": "以代餐粉为主，正餐尽量少"
       },
       {
         "key": "B",
-        "text": "蔬菜、优质蛋白和全谷物等饱腹感较好的食物"
+        "text": "蔬菜、优质蛋白和全谷物等"
       },
       {
         "key": "C",
-        "text": "晚餐长期只吃水果，减少热量更快"
+        "text": "晚餐以水果为主，减少热量"
       },
       {
         "key": "D",
-        "text": "优先选择低脂饼干等标称减肥食品"
+        "text": "优先选低脂饼干等减肥食品"
       }
     ],
     "correct_count": 0,
     "quality_score": 89,
     "question_text": "想控制体重但保证营养，老人更适合优先选择？",
     "correct_option": "B",
-    "difficulty_level": 2,
+    "difficulty_level": 1,
     "reference_source": "老年营养与膳食指南科普",
     "semantic_fingerprint": "667ad73f376b09a24a20ba2ee3219189"
   },
@@ -1657,7 +1657,7 @@
       },
       {
         "key": "B",
-        "text": "所有食物都盐腌"
+        "text": "以盐腌方式保存"
       },
       {
         "key": "C",
@@ -1665,7 +1665,7 @@
       },
       {
         "key": "D",
-        "text": "只吃生冷硬食"
+        "text": "以生冷食物为主"
       }
     ],
     "correct_count": 0,
@@ -1739,19 +1739,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "骨汤钙含量通常有限，补钙仍应靠奶类、豆制品等食物或医嘱补充"
+        "text": "骨汤钙含量有限，补钙仍应靠奶类和豆制品"
       },
       {
         "key": "B",
-        "text": "骨汤熬得越白，补钙效果越接近奶类"
+        "text": "骨汤熬得越白，补钙效果越好"
       },
       {
         "key": "C",
-        "text": "每天喝骨汤可作为奶类之外的主要补钙方式"
+        "text": "每天喝骨汤可作为主要补钙方式"
       },
       {
         "key": "D",
-        "text": "加醋炖骨汤能把补钙效果提高到接近奶类"
+        "text": "加醋炖骨汤补钙效果接近奶类"
       }
     ],
     "correct_count": 0,
@@ -1825,19 +1825,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "优先吃硬坚果和肉干训练咀嚼"
+        "text": "吃硬坚果和肉干训练咀嚼"
       },
       {
         "key": "B",
-        "text": "只喝肉汤或鱼汤，避免咀嚼负担"
+        "text": "以肉汤鱼汤为主，避免咀嚼"
       },
       {
         "key": "C",
-        "text": "蒸蛋、鱼肉泥、豆腐、酸奶等软质食物"
+        "text": "蒸蛋、鱼肉泥、豆腐等软质食物"
       },
       {
         "key": "D",
-        "text": "用甜味营养饮料替代大多数蛋白食物"
+        "text": "以甜味营养饮料补充蛋白"
       }
     ],
     "correct_count": 0,
@@ -2229,7 +2229,7 @@
     ],
     "correct_count": 0,
     "quality_score": 92,
-    "question_text": "糖尿病老人运动或延迟进餐时随身带少量糖果，主要目的是什么？",
+    "question_text": "糖尿病老人运动或延迟进餐时随身带少量糖果，主要是为了？",
     "correct_option": "D",
     "difficulty_level": 3,
     "reference_source": "老年营养与膳食指南科普",
@@ -2255,19 +2255,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "按营养缺口选择正规产品，少量加入日常餐食"
+        "text": "按营养缺口选正规产品，加入餐食"
       },
       {
         "key": "B",
-        "text": "自行混用蛋白粉、维生素和保健品"
+        "text": "混用蛋白粉和维生素等保健品"
       },
       {
         "key": "C",
-        "text": "主要靠甜饮料和糕点增加热量"
+        "text": "以甜饮料和糕点增加热量"
       },
       {
         "key": "D",
-        "text": "每天只吃更开胃的咸菜和白粥"
+        "text": "以开胃的咸菜和白粥为主"
       }
     ],
     "correct_count": 0,
@@ -2444,7 +2444,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "老人患有慢病后，最不推荐的饮食态度是？",
+    "question_text": "老人患有慢病后，不推荐的饮食态度是？",
     "correct_option": "A",
     "difficulty_level": 2,
     "reference_source": "老年营养与膳食指南科普",
@@ -2556,7 +2556,7 @@
     "options_json": [
       {
         "key": "A",
-        "text": "只囤大量方便面"
+        "text": "囤大量方便面备用"
       },
       {
         "key": "B",
@@ -2564,11 +2564,11 @@
       },
       {
         "key": "C",
-        "text": "只买甜点保证开心"
+        "text": "以甜点为主保证心情"
       },
       {
         "key": "D",
-        "text": "准备小份、易烹调、营养搭配完整的食材"
+        "text": "准备小份、易烹调的营养食材"
       }
     ],
     "correct_count": 0,
@@ -2603,20 +2603,20 @@
       },
       {
         "key": "B",
-        "text": "只做手指操"
+        "text": "以手指操为主"
       },
       {
         "key": "C",
-        "text": "只在周末突然高强度运动"
+        "text": "周末集中高强度运动"
       },
       {
         "key": "D",
-        "text": "完全卧床休息"
+        "text": "以卧床休息为主"
       }
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "65岁以上老人每周运动安排中，较完整的组合应包括？",
+    "question_text": "65岁以上老人每周运动安排，较完整的组合应包括？",
     "correct_option": "A",
     "difficulty_level": 1,
     "reference_source": "WHO/CDC 老年身体活动建议",
@@ -2728,15 +2728,15 @@
     "options_json": [
       {
         "key": "A",
-        "text": "让身高明显增加"
+        "text": "有助于增加身高"
       },
       {
         "key": "B",
-        "text": "替代所有有氧运动"
+        "text": "可以替代有氧运动"
       },
       {
         "key": "C",
-        "text": "保证永远不会生病"
+        "text": "能预防大部分疾病"
       },
       {
         "key": "D",
@@ -2745,7 +2745,7 @@
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "老年人每周进行力量训练的主要意义是？",
+    "question_text": "老年人每周进行力量训练，主要意义是？",
     "correct_option": "D",
     "difficulty_level": 1,
     "reference_source": "WHO/CDC 老年身体活动建议",
@@ -2814,7 +2814,7 @@
     "options_json": [
       {
         "key": "A",
-        "text": "让血糖立刻归零"
+        "text": "能让血糖快速下降"
       },
       {
         "key": "B",
@@ -2822,16 +2822,16 @@
       },
       {
         "key": "C",
-        "text": "替代照明和扶手"
+        "text": "可以替代扶手和照明"
       },
       {
         "key": "D",
-        "text": "治疗所有关节病"
+        "text": "能缓解关节疾病"
       }
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "平衡训练对老人最直接的价值是？",
+    "question_text": "平衡训练对老人直接的价值是？",
     "correct_option": "B",
     "difficulty_level": 1,
     "reference_source": "WHO/CDC 老年身体活动建议",
@@ -2857,24 +2857,24 @@
     "options_json": [
       {
         "key": "A",
-        "text": "让运动后无需喝水"
+        "text": "运动后就不需要喝水"
       },
       {
         "key": "B",
-        "text": "保证不会出汗"
+        "text": "可以避免出汗"
       },
       {
         "key": "C",
-        "text": "让心肺、肌肉和关节逐步进入活动状态"
+        "text": "让心肺和关节逐步进入活动状态"
       },
       {
         "key": "D",
-        "text": "替代正式运动"
+        "text": "可以替代正式运动"
       }
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "老人运动前热身的主要作用是？",
+    "question_text": "老人运动前热身，主要作用是？",
     "correct_option": "C",
     "difficulty_level": 1,
     "reference_source": "WHO/CDC 老年身体活动建议",
@@ -2947,15 +2947,15 @@
       },
       {
         "key": "B",
-        "text": "一句话也说不出来才算中等强度"
+        "text": "说话喘到说不成句才算中等"
       },
       {
         "key": "C",
-        "text": "完全不喘、和平时坐着差不多"
+        "text": "呼吸平稳和平时差不多"
       },
       {
         "key": "D",
-        "text": "必须大声喘气才说明强度合适"
+        "text": "大声喘气才说明强度合适"
       }
     ],
     "correct_count": 0,
@@ -3089,7 +3089,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "久坐老人重新开始运动，最合适的原则是？",
+    "question_text": "久坐老人重新开始运动，较合适的原则是？",
     "correct_option": "D",
     "difficulty_level": 2,
     "reference_source": "WHO/CDC 老年身体活动建议",
@@ -3158,24 +3158,24 @@
     "options_json": [
       {
         "key": "A",
-        "text": "穿拖鞋走湿滑路"
+        "text": "穿拖鞋走湿滑路面"
       },
       {
         "key": "B",
-        "text": "选择平整路线、合脚鞋，并量力而行"
+        "text": "选平整路线、合脚鞋，量力而行"
       },
       {
         "key": "C",
-        "text": "只在车流中间走"
+        "text": "在车流中穿行"
       },
       {
         "key": "D",
-        "text": "越黑的路越锻炼反应"
+        "text": "走暗路锻炼反应能力"
       }
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "对多数老人来说，步行运动最重要的安全细节是？",
+    "question_text": "对多数老人来说，步行运动重要的安全细节是？",
     "correct_option": "B",
     "difficulty_level": 1,
     "reference_source": "WHO/CDC 老年身体活动建议",
@@ -3244,19 +3244,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "完全没有任何强度"
+        "text": "没有什么运动强度"
       },
       {
         "key": "B",
-        "text": "能替代所有医疗治疗"
+        "text": "可以替代医疗治疗"
       },
       {
         "key": "C",
-        "text": "必须憋气练才有效"
+        "text": "需要憋气练习才有效"
       },
       {
         "key": "D",
-        "text": "动作相对缓和，并兼顾平衡和下肢控制"
+        "text": "动作缓和，兼顾平衡和下肢控制"
       }
     ],
     "correct_count": 0,
@@ -3502,19 +3502,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "越疼越有效"
+        "text": "拉到疼痛感越强越有效"
       },
       {
         "key": "B",
-        "text": "缓慢到轻微牵拉感，避免弹震和憋气"
+        "text": "缓慢到轻微牵拉感，避免弹震"
       },
       {
         "key": "C",
-        "text": "猛压关节到疼痛"
+        "text": "猛压关节到有痛感"
       },
       {
         "key": "D",
-        "text": "边憋气边用力"
+        "text": "憋气用力效果更好"
       }
     ],
     "correct_count": 0,
@@ -3562,7 +3562,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "运动后轻微酸胀与明显关节痛的处理区别是？",
+    "question_text": "运动后轻微酸胀与明显疼痛，处理上的区别是？",
     "correct_option": "C",
     "difficulty_level": 2,
     "reference_source": "WHO/CDC 老年身体活动建议",
@@ -3588,7 +3588,7 @@
     "options_json": [
       {
         "key": "A",
-        "text": "运动前后完全不喝水"
+        "text": "运动前后尽量不喝水"
       },
       {
         "key": "B",
@@ -3596,11 +3596,11 @@
       },
       {
         "key": "C",
-        "text": "只喝高度酒补水"
+        "text": "以饮料或茶代替水"
       },
       {
         "key": "D",
-        "text": "运动前后和过程中少量多次饮水"
+        "text": "运动前后少量多次饮水"
       }
     ],
     "correct_count": 0,
@@ -3932,19 +3932,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "完全不算活动"
+        "text": "不算身体活动"
       },
       {
         "key": "B",
-        "text": "一定比规范运动强度高"
+        "text": "比规范运动强度更高"
       },
       {
         "key": "C",
-        "text": "能替代所有力量训练"
+        "text": "可以替代力量训练"
       },
       {
         "key": "D",
-        "text": "也属于增加日常身体活动的一部分"
+        "text": "也属于日常身体活动的一部分"
       }
     ],
     "correct_count": 0,
@@ -3992,7 +3992,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "老人记录每天步数或活动时间，主要目的是什么？",
+    "question_text": "老人记录每天步数或活动时间，主要是为了？",
     "correct_option": "A",
     "difficulty_level": 2,
     "reference_source": "WHO/CDC 老年身体活动建议",
@@ -4035,7 +4035,7 @@
     ],
     "correct_count": 0,
     "quality_score": 92,
-    "question_text": "老人跌倒后害怕活动，恢复活动时更合理的顺序是？",
+    "question_text": "老人摔倒后不敢活动，重新开始活动时更合理的顺序是？",
     "correct_option": "B",
     "difficulty_level": 3,
     "reference_source": "WHO/CDC 老年身体活动建议",
@@ -4061,19 +4061,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "所有负重活动都减少到最低"
+        "text": "尽量减少负重活动"
       },
       {
         "key": "B",
-        "text": "只做柔韧拉伸，暂不做力量训练"
+        "text": "以柔韧拉伸为主，暂不做力量"
       },
       {
         "key": "C",
-        "text": "高冲击、易跌倒或突然扭转的危险动作"
+        "text": "高冲击、易跌倒或突然扭转的动作"
       },
       {
         "key": "D",
-        "text": "补钙后通常可按普通强度运动"
+        "text": "补钙后可按普通强度运动"
       }
     ],
     "correct_count": 0,
@@ -4147,11 +4147,11 @@
     "options_json": [
       {
         "key": "A",
-        "text": "突发不适或迷路时更容易获得帮助"
+        "text": "突发不适或迷路时更易获得帮助"
       },
       {
         "key": "B",
-        "text": "能让运动完全没有风险"
+        "text": "能让运动风险降到最低"
       },
       {
         "key": "C",
@@ -4159,7 +4159,7 @@
       },
       {
         "key": "D",
-        "text": "可忽视天气变化"
+        "text": "天气变化影响不大"
       }
     ],
     "correct_count": 0,
@@ -4233,7 +4233,7 @@
     "options_json": [
       {
         "key": "A",
-        "text": "提高平衡能力"
+        "text": "有助于提高平衡能力"
       },
       {
         "key": "B",
@@ -4241,16 +4241,16 @@
       },
       {
         "key": "C",
-        "text": "分散注意力，增加绊倒或碰撞风险"
+        "text": "分散注意力，增加绊倒风险"
       },
       {
         "key": "D",
-        "text": "自动改善听力"
+        "text": "能改善周围听力"
       }
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "老人边走路边看手机，最主要的健康风险是？",
+    "question_text": "老人边走路边看手机，主要的健康风险是？",
     "correct_option": "C",
     "difficulty_level": 1,
     "reference_source": "WHO/CDC 老年身体活动建议",
@@ -4481,7 +4481,7 @@
     ],
     "use_count": 0,
     "created_at": "2026-07-14 10:00:00",
-    "difficulty": "NORMAL",
+    "difficulty": "EASY",
     "risk_level": 1,
     "updated_at": "2026-07-14 10:00:00",
     "explanation": "污染天气会增加呼吸和心血管负担，老年人应调整运动地点和强度。",
@@ -4510,7 +4510,7 @@
     "quality_score": 89,
     "question_text": "空气污染较重时，老人户外锻炼更合适的选择是？",
     "correct_option": "A",
-    "difficulty_level": 2,
+    "difficulty_level": 1,
     "reference_source": "WHO/CDC 老年身体活动建议",
     "semantic_fingerprint": "5ac5e3882c88395be48acd893332da2f"
   },
@@ -4594,7 +4594,7 @@
     ],
     "correct_count": 0,
     "quality_score": 92,
-    "question_text": "做过关节置换或骨折手术的老人恢复运动，最应依据？",
+    "question_text": "做过关节置换或骨折手术的老人恢复运动，应依据什么？",
     "correct_option": "C",
     "difficulty_level": 3,
     "reference_source": "WHO/CDC 老年身体活动建议",
@@ -4637,7 +4637,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "使用手杖的老人，最需要注意的是？",
+    "question_text": "使用手杖的老人，需要注意的是？",
     "correct_option": "D",
     "difficulty_level": 2,
     "reference_source": "WHO/CDC 老年身体活动建议",
@@ -4792,15 +4792,15 @@
     "options_json": [
       {
         "key": "A",
-        "text": "保证不会受伤"
+        "text": "能避免运动受伤"
       },
       {
         "key": "B",
-        "text": "替代所有体检"
+        "text": "可以替代体检"
       },
       {
         "key": "C",
-        "text": "让所有人强度完全相同"
+        "text": "让参与者强度保持一致"
       },
       {
         "key": "D",
@@ -4938,7 +4938,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "老人追求每日步数时，最应避免？",
+    "question_text": "老人追求每日步数时，应避免？",
     "correct_option": "C",
     "difficulty_level": 2,
     "reference_source": "WHO/CDC 老年身体活动建议",
@@ -5101,11 +5101,11 @@
       },
       {
         "key": "C",
-        "text": "时间不宜过长，尽量安排在下午较早时候"
+        "text": "时间不宜过长，安排在下午较早时"
       },
       {
         "key": "D",
-        "text": "越晚午睡越助眠"
+        "text": "越晚午睡越有助夜间睡眠"
       }
     ],
     "correct_count": 0,
@@ -5394,19 +5394,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "激烈争论"
+        "text": "讨论白天未解决的事"
       },
       {
         "key": "B",
-        "text": "听轻柔音乐、温水洗漱或呼吸放松"
+        "text": "听轻柔音乐或温水洗漱放松"
       },
       {
         "key": "C",
-        "text": "高强度运动"
+        "text": "做些拉伸活动"
       },
       {
         "key": "D",
-        "text": "处理紧急工作消息"
+        "text": "处理积压的消息"
       }
     ],
     "correct_count": 0,
@@ -5540,7 +5540,7 @@
     ],
     "correct_count": 0,
     "quality_score": 92,
-    "question_text": "老人使用处方安眠药时，最应注意什么？",
+    "question_text": "老人使用处方安眠药时，应注意什么？",
     "correct_option": "A",
     "difficulty_level": 3,
     "reference_source": "NIH/NHLBI 睡眠健康科普",
@@ -5583,7 +5583,7 @@
     ],
     "correct_count": 0,
     "quality_score": 92,
-    "question_text": "老人严重打鼾，并伴白天嗜睡、憋醒，最需要排查什么？",
+    "question_text": "老人睡觉时鼾声很大，白天又总犯困，需要排查什么？",
     "correct_option": "B",
     "difficulty_level": 3,
     "reference_source": "NIH/NHLBI 睡眠健康科普",
@@ -5652,19 +5652,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "睡前完全不喝水，先不管起夜原因"
+        "text": "睡前少喝水，暂不查起夜原因"
       },
       {
         "key": "B",
-        "text": "夜间尽量不开灯，避免清醒"
+        "text": "夜间不开灯，避免清醒"
       },
       {
         "key": "C",
-        "text": "自行服用利尿药，把尿提前排完"
+        "text": "自行服利尿药提前排尿"
       },
       {
         "key": "D",
-        "text": "记录夜尿次数、饮水、尿急尿痛和血糖血压变化"
+        "text": "记录夜尿次数、饮水和相关症状"
       }
     ],
     "correct_count": 0,
@@ -5841,7 +5841,7 @@
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "老人选择枕头和床垫，最应考虑？",
+    "question_text": "老人选择枕头和床垫，应考虑？",
     "correct_option": "D",
     "difficulty_level": 1,
     "reference_source": "NIH/NHLBI 睡眠健康科普",
@@ -5996,7 +5996,7 @@
     "options_json": [
       {
         "key": "A",
-        "text": "稳定床头灯"
+        "text": "固定的床头灯"
       },
       {
         "key": "B",
@@ -6004,16 +6004,16 @@
       },
       {
         "key": "C",
-        "text": "常用眼镜"
+        "text": "常用的老花镜"
       },
       {
         "key": "D",
-        "text": "电线、杂物和容易滑动的小地毯"
+        "text": "电线、杂物和易滑地毯"
       }
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "为减少夜间跌倒，床边最不应堆放的是？",
+    "question_text": "为减少夜间跌倒，床边不应堆放的是？",
     "correct_option": "D",
     "difficulty_level": 1,
     "reference_source": "NIH/NHLBI 睡眠健康科普",
@@ -6215,11 +6215,11 @@
       },
       {
         "key": "B",
-        "text": "下午睡到晚饭后"
+        "text": "下午睡到晚饭后再起"
       },
       {
         "key": "C",
-        "text": "完全不见光"
+        "text": "白天尽量不见光"
       },
       {
         "key": "D",
@@ -6314,7 +6314,7 @@
     ],
     "correct_count": 0,
     "quality_score": 92,
-    "question_text": "老人新换药后出现失眠或白天嗜睡，最有用的信息是什么？",
+    "question_text": "老人新换药后出现失眠或白天嗜睡，有用的信息是？",
     "correct_option": "C",
     "difficulty_level": 3,
     "reference_source": "NIH/NHLBI 睡眠健康科普",
@@ -6383,19 +6383,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "记录停顿、憋醒和白天困倦，安排睡眠呼吸评估"
+        "text": "记录停顿和白天困倦，安排呼吸评估"
       },
       {
         "key": "B",
-        "text": "先把老人摇醒，确认后继续睡"
+        "text": "把老人摇醒，确认后继续睡"
       },
       {
         "key": "C",
-        "text": "睡前喝酒减少打鼾声"
+        "text": "睡前少量饮酒减少鼾声"
       },
       {
         "key": "D",
-        "text": "分房睡后听不见就不影响健康"
+        "text": "分房睡后听不见就不影响"
       }
     ],
     "correct_count": 0,
@@ -6555,19 +6555,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "保持温度舒适并避免过冷过热"
+        "text": "保持温度舒适，避免过冷过热"
       },
       {
         "key": "B",
-        "text": "越热越容易深睡"
+        "text": "温度高些更容易进入深睡"
       },
       {
         "key": "C",
-        "text": "越冷越锻炼心脏"
+        "text": "温度低些能锻炼心脏"
       },
       {
         "key": "D",
-        "text": "不开窗也不通风永远最好"
+        "text": "不开窗不通风更保温"
       }
     ],
     "correct_count": 0,
@@ -6615,7 +6615,7 @@
     ],
     "correct_count": 0,
     "quality_score": 92,
-    "question_text": "老人夜间服药后头晕，起夜时最先要做的是？",
+    "question_text": "老人夜间服药后头晕，起夜时先要做的是？",
     "correct_option": "B",
     "difficulty_level": 3,
     "reference_source": "NIH/NHLBI 睡眠健康科普",
@@ -6641,11 +6641,11 @@
     "options_json": [
       {
         "key": "A",
-        "text": "白天越静止越好睡"
+        "text": "白天尽量静止有利于夜间睡眠"
       },
       {
         "key": "B",
-        "text": "完全不需要昼夜节律"
+        "text": "睡眠不依赖昼夜节律"
       },
       {
         "key": "C",
@@ -6653,7 +6653,7 @@
       },
       {
         "key": "D",
-        "text": "夜间睡眠与白天无关"
+        "text": "夜间睡眠和白天活动关系不大"
       }
     ],
     "correct_count": 0,
@@ -6744,7 +6744,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "家庭血压记录最有价值的信息通常是？",
+    "question_text": "家庭血压记录有价值的信息通常是？",
     "correct_option": "A",
     "difficulty_level": 2,
     "reference_source": "老年慢病预防与自我监测科普",
@@ -6787,7 +6787,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "血压一两天正常后，老人对降压药最不应做的是？",
+    "question_text": "血压一两天正常后，老人对降压药不应做的是？",
     "correct_option": "B",
     "difficulty_level": 2,
     "reference_source": "老年慢病预防与自我监测科普",
@@ -7114,7 +7114,7 @@
     "options_json": [
       {
         "key": "A",
-        "text": "让血糖自动正常"
+        "text": "能让血糖恢复正常"
       },
       {
         "key": "B",
@@ -7122,11 +7122,11 @@
       },
       {
         "key": "C",
-        "text": "替代运动"
+        "text": "可以替代运动"
       },
       {
         "key": "D",
-        "text": "不再需要照明"
+        "text": "不再需要额外照明"
       }
     ],
     "correct_count": 0,
@@ -7200,19 +7200,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "主要按是否曾经接种过来判断"
+        "text": "主要看以前是否接种过"
       },
       {
         "key": "B",
-        "text": "慢病稳定后再统一考虑所有疫苗"
+        "text": "慢病稳定后再统一接种疫苗"
       },
       {
         "key": "C",
-        "text": "接种后可减少其他日常防护"
+        "text": "接种后可减少日常防护"
       },
       {
         "key": "D",
-        "text": "按年龄、慢病状态和当地建议核对适合疫苗"
+        "text": "按年龄和慢病状态核对适合疫苗"
       }
     ],
     "correct_count": 0,
@@ -7247,15 +7247,15 @@
       },
       {
         "key": "B",
-        "text": "完全没意义"
+        "text": "意义不大，损害已形成"
       },
       {
         "key": "C",
-        "text": "只会让身体变差"
+        "text": "可能使身体暂时变差"
       },
       {
         "key": "D",
-        "text": "只能靠电子烟解决"
+        "text": "可改用电子烟替代"
       }
     ],
     "correct_count": 0,
@@ -7333,11 +7333,11 @@
       },
       {
         "key": "B",
-        "text": "只喝药酒比普通酒更安全"
+        "text": "药酒比普通酒更安全"
       },
       {
         "key": "C",
-        "text": "多数应避免或限制，并核对药物相互作用"
+        "text": "多数应避免或限制，核对药物相互作用"
       },
       {
         "key": "D",
@@ -7587,11 +7587,11 @@
     "options_json": [
       {
         "key": "A",
-        "text": "先分清诱因和类型，训练、用药或护理方法可改善"
+        "text": "分清诱因和类型后，训练或护理可改善"
       },
       {
         "key": "B",
-        "text": "少喝水通常就能解决，不用评估"
+        "text": "少喝水通常就能解决"
       },
       {
         "key": "C",
@@ -7599,7 +7599,7 @@
       },
       {
         "key": "D",
-        "text": "出现尿失禁后应减少外出和运动"
+        "text": "应减少外出和运动"
       }
     ],
     "correct_count": 0,
@@ -7690,7 +7690,7 @@
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "老人复诊时带上血压、血糖、用药和症状记录，主要好处是？",
+    "question_text": "老人复诊时带上血压、血糖、用药和症状记录，好处主要是？",
     "correct_option": "C",
     "difficulty_level": 1,
     "reference_source": "老年慢病预防与自我监测科普",
@@ -7733,7 +7733,7 @@
     ],
     "correct_count": 0,
     "quality_score": 92,
-    "question_text": "老人同时有多种慢病时，生活方式建议最应避免？",
+    "question_text": "老人同时有多种慢病时，生活方式建议应避免？",
     "correct_option": "D",
     "difficulty_level": 3,
     "reference_source": "老年慢病预防与自我监测科普",
@@ -7776,7 +7776,7 @@
     ],
     "correct_count": 0,
     "quality_score": 92,
-    "question_text": "肾功能下降的老人调整蛋白质、钾、磷摄入时，最应依据？",
+    "question_text": "老人查出肾功能不好后要调饮食，按什么来调更靠谱？",
     "correct_option": "A",
     "difficulty_level": 3,
     "reference_source": "老年慢病预防与自我监测科普",
@@ -7862,7 +7862,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "健康排行榜涉及血压血糖时，为什么不宜简单比谁数值最低？",
+    "question_text": "健康排行榜涉及血压血糖时，为什么不宜简单比谁的数值最低？",
     "correct_option": "C",
     "difficulty_level": 2,
     "reference_source": "老年慢病预防与自我监测科普",
@@ -7888,19 +7888,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "替代身份证"
+        "text": "可以作为身份证替代品"
       },
       {
         "key": "B",
-        "text": "证明可以不复诊"
+        "text": "证明近期不需要复诊"
       },
       {
         "key": "C",
-        "text": "避免所有意外"
+        "text": "能避免意外发生"
       },
       {
         "key": "D",
-        "text": "突发情况时帮助他人快速了解病情和联系家属"
+        "text": "帮助他人了解病情并联系家属"
       }
     ],
     "correct_count": 0,
@@ -8034,7 +8034,7 @@
     ],
     "correct_count": 0,
     "quality_score": 92,
-    "question_text": "老人服用降压药后从坐位站起头晕，最需要记录什么？",
+    "question_text": "老人服用降压药后从坐位站起头晕，需要记录什么？",
     "correct_option": "C",
     "difficulty_level": 3,
     "reference_source": "老年慢病预防与自我监测科普",
@@ -8077,7 +8077,7 @@
     ],
     "correct_count": 0,
     "quality_score": 92,
-    "question_text": "老人短期内明显糊涂、嗜睡或行为异常，最不应简单认为是？",
+    "question_text": "老人短期内明显糊涂、嗜睡或行为异常，不应简单认为是？",
     "correct_option": "D",
     "difficulty_level": 3,
     "reference_source": "老年慢病预防与自我监测科普",
@@ -8240,16 +8240,16 @@
       },
       {
         "key": "C",
-        "text": "完全代替老人表达"
+        "text": "代替老人表达"
       },
       {
         "key": "D",
-        "text": "协助记录、提醒复诊并尊重老人选择"
+        "text": "协助记录、提醒复诊并尊重选择"
       }
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "家属帮助老人慢病管理，最有用的方式之一是？",
+    "question_text": "家属帮助老人慢病管理，有用的方式之一是？",
     "correct_option": "D",
     "difficulty_level": 1,
     "reference_source": "老年慢病预防与自我监测科普",
@@ -8265,7 +8265,7 @@
     ],
     "use_count": 0,
     "created_at": "2026-07-14 10:00:00",
-    "difficulty": "NORMAL",
+    "difficulty": "EASY",
     "risk_level": 2,
     "updated_at": "2026-07-14 10:00:00",
     "explanation": "具体、可持续的目标更容易坚持，也更安全。",
@@ -8294,7 +8294,7 @@
     "quality_score": 89,
     "question_text": "为老人设定健康目标时，更合适的是？",
     "correct_option": "A",
-    "difficulty_level": 2,
+    "difficulty_level": 1,
     "reference_source": "老年慢病预防与自我监测科普",
     "semantic_fingerprint": "f3e4bcf186227dbf519e4f6bae632d74"
   },
@@ -8550,7 +8550,7 @@
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "判断肉类是否安全做熟，最可靠的方法是？",
+    "question_text": "判断肉类是否安全做熟，可靠的方法是？",
     "correct_option": "C",
     "difficulty_level": 1,
     "reference_source": "CDC 食品安全四步法科普",
@@ -8576,15 +8576,15 @@
     "options_json": [
       {
         "key": "A",
-        "text": "一整天"
+        "text": "不超过半天"
       },
       {
         "key": "B",
-        "text": "三天"
+        "text": "不超过一天"
       },
       {
         "key": "C",
-        "text": "只要盖着就无限期"
+        "text": "盖好保鲜膜可放更久"
       },
       {
         "key": "D",
@@ -8795,15 +8795,15 @@
       },
       {
         "key": "B",
-        "text": "蛋白质一定更少"
+        "text": "蛋白质含量更低"
       },
       {
         "key": "C",
-        "text": "完全没有任何微生物"
+        "text": "不含任何微生物"
       },
       {
         "key": "D",
-        "text": "能治疗慢病"
+        "text": "有助于治疗慢病"
       }
     ],
     "correct_count": 0,
@@ -8877,19 +8877,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "只用纸巾擦一下"
+        "text": "用纸巾擦一下表面"
       },
       {
         "key": "B",
-        "text": "喷香水去味"
+        "text": "喷点消毒液去味"
       },
       {
         "key": "C",
-        "text": "在流动水下清洗，必要时刷洗表皮"
+        "text": "流动水下清洗，必要时刷洗表皮"
       },
       {
         "key": "D",
-        "text": "切开后再洗果肉"
+        "text": "切开后再冲洗果肉"
       }
     ],
     "correct_count": 0,
@@ -9006,7 +9006,7 @@
     "options_json": [
       {
         "key": "A",
-        "text": "煮一煮就肯定安全"
+        "text": "煮沸后应该就安全了"
       },
       {
         "key": "B",
@@ -9014,11 +9014,11 @@
       },
       {
         "key": "C",
-        "text": "送给邻居"
+        "text": "送给邻居处理"
       },
       {
         "key": "D",
-        "text": "只吃一小口试试"
+        "text": "尝一小口判断是否变质"
       }
     ],
     "correct_count": 0,
@@ -9109,7 +9109,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "罐头出现鼓包、漏液或喷溅，最应怎么做？",
+    "question_text": "罐头出现鼓包、漏液或喷溅，应怎么做？",
     "correct_option": "D",
     "difficulty_level": 2,
     "reference_source": "CDC 食品安全四步法科普",
@@ -9178,7 +9178,7 @@
     "options_json": [
       {
         "key": "A",
-        "text": "湿漉漉叠放很久"
+        "text": "湿着叠放起来"
       },
       {
         "key": "B",
@@ -9186,11 +9186,11 @@
       },
       {
         "key": "C",
-        "text": "生肉盘随手装凉菜"
+        "text": "生肉盘冲洗后装凉菜"
       },
       {
         "key": "D",
-        "text": "只用清水冲油污"
+        "text": "用清水冲去油污即可"
       }
     ],
     "correct_count": 0,
@@ -9350,7 +9350,7 @@
     "options_json": [
       {
         "key": "A",
-        "text": "颜色鲜艳的野菜通常更安全"
+        "text": "颜色鲜艳的野菜更安全"
       },
       {
         "key": "B",
@@ -9358,11 +9358,11 @@
       },
       {
         "key": "C",
-        "text": "煮熟后所有野蘑菇都能吃"
+        "text": "煮熟后野蘑菇都可食用"
       },
       {
         "key": "D",
-        "text": "少量尝试不会有明显风险"
+        "text": "少量尝试风险不大"
       }
     ],
     "correct_count": 0,
@@ -9496,7 +9496,7 @@
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "老人同时吃多种药时，最安全的做法是？",
+    "question_text": "老人同时吃多种药时，较安全的做法是？",
     "correct_option": "A",
     "difficulty_level": 1,
     "reference_source": "老年多重用药安全科普",
@@ -9608,15 +9608,15 @@
     "options_json": [
       {
         "key": "A",
-        "text": "让过期药变有效"
+        "text": "能让过期药恢复有效"
       },
       {
         "key": "B",
-        "text": "替代医生处方"
+        "text": "可以替代医生处方"
       },
       {
         "key": "C",
-        "text": "让所有药都能同服"
+        "text": "让不同药物都能同时服用"
       },
       {
         "key": "D",
@@ -9625,7 +9625,7 @@
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "分格药盒对老人最主要的帮助是？",
+    "question_text": "分格药盒对老人主要的帮助是？",
     "correct_option": "D",
     "difficulty_level": 1,
     "reference_source": "老年多重用药安全科普",
@@ -9651,24 +9651,24 @@
     "options_json": [
       {
         "key": "A",
-        "text": "方便核对药名、剂量、有效期和注意事项"
+        "text": "方便核对药名、剂量和有效期"
       },
       {
         "key": "B",
-        "text": "让药片更漂亮"
+        "text": "让药品外观更整洁"
       },
       {
         "key": "C",
-        "text": "减少药效"
+        "text": "减少药物副作用"
       },
       {
         "key": "D",
-        "text": "避免医生知道药名"
+        "text": "避免医生知道用药"
       }
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "药品原包装和说明标签最好保留，是为了？",
+    "question_text": "药品原包装和说明标签应保留，主要是为了？",
     "correct_option": "A",
     "difficulty_level": 1,
     "reference_source": "老年多重用药安全科普",
@@ -9694,19 +9694,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "继续给老人吃"
+        "text": "继续服用观察效果"
       },
       {
         "key": "B",
-        "text": "定期清理，按当地药品回收或安全丢弃要求处理"
+        "text": "按回收要求安全处理"
       },
       {
         "key": "C",
-        "text": "混入新药瓶"
+        "text": "混入新药瓶中备用"
       },
       {
         "key": "D",
-        "text": "送给亲友试用"
+        "text": "送给亲友试试看"
       }
     ],
     "correct_count": 0,
@@ -9883,7 +9883,7 @@
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "多数口服药最推荐用什么送服？",
+    "question_text": "多数口服药推荐用什么送服？",
     "correct_option": "B",
     "difficulty_level": 1,
     "reference_source": "老年多重用药安全科普",
@@ -9926,7 +9926,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "老人觉得药片太大，最不应直接做的是？",
+    "question_text": "老人觉得药片太大，不应直接做的是？",
     "correct_option": "C",
     "difficulty_level": 2,
     "reference_source": "老年多重用药安全科普",
@@ -9995,19 +9995,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "按说明避光、防潮，并放在儿童不易拿到处"
+        "text": "避光防潮，放在儿童不易拿到处"
       },
       {
         "key": "B",
-        "text": "全部放在潮湿浴室"
+        "text": "放在浴室方便取用"
       },
       {
         "key": "C",
-        "text": "和食品散装混放"
+        "text": "和食品一起存放"
       },
       {
         "key": "D",
-        "text": "放在阳台暴晒"
+        "text": "放在阳台通风处"
       }
     ],
     "correct_count": 0,
@@ -10210,7 +10210,7 @@
     "options_json": [
       {
         "key": "A",
-        "text": "家人药一定更贵"
+        "text": "家人的药通常更贵"
       },
       {
         "key": "B",
@@ -10218,11 +10218,11 @@
       },
       {
         "key": "C",
-        "text": "处方药没有有效期"
+        "text": "处方药不影响有效期"
       },
       {
         "key": "D",
-        "text": "不同人药效完全一样"
+        "text": "同类药对不同人效果一样"
       }
     ],
     "correct_count": 0,
@@ -10356,7 +10356,7 @@
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "预防老人跌倒，家中最应优先处理的是？",
+    "question_text": "预防老人跌倒，家中应优先处理的是？",
     "correct_option": "A",
     "difficulty_level": 1,
     "reference_source": "老年居家安全与健康照护科普",
@@ -10425,7 +10425,7 @@
     "options_json": [
       {
         "key": "A",
-        "text": "摸黑快速跑去"
+        "text": "摸黑快速走过去"
       },
       {
         "key": "B",
@@ -10433,7 +10433,7 @@
       },
       {
         "key": "C",
-        "text": "床边放好防滑拖鞋，通道有柔和照明"
+        "text": "床边放防滑拖鞋，通道有照明"
       },
       {
         "key": "D",
@@ -11001,7 +11001,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "独居老人每天固定报平安，主要价值是？",
+    "question_text": "独居老人每天固定报平安，价值主要在？",
     "correct_option": "D",
     "difficulty_level": 2,
     "reference_source": "老年居家安全与健康照护科普",
@@ -11027,11 +11027,11 @@
     "options_json": [
       {
         "key": "A",
-        "text": "请人帮忙或使用稳定工具，避免踩椅子"
+        "text": "请人帮忙或用稳定工具取物"
       },
       {
         "key": "B",
-        "text": "踩带轮椅子"
+        "text": "踩带轮子的椅子够取"
       },
       {
         "key": "C",
@@ -11039,7 +11039,7 @@
       },
       {
         "key": "D",
-        "text": "站在湿滑凳子上"
+        "text": "站在凳子上取物"
       }
     ],
     "correct_count": 0,
@@ -11130,7 +11130,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "行动不便老人使用紧急呼叫器，主要目的是？",
+    "question_text": "行动不便老人使用紧急呼叫器，主要是为了？",
     "correct_option": "C",
     "difficulty_level": 2,
     "reference_source": "老年居家安全与健康照护科普",
@@ -11173,7 +11173,7 @@
     ],
     "correct_count": 0,
     "quality_score": 92,
-    "question_text": "适老化改造最核心的目标是？",
+    "question_text": "适老化改造核心的目标是？",
     "correct_option": "D",
     "difficulty_level": 3,
     "reference_source": "老年居家安全与健康照护科普",
@@ -11203,15 +11203,15 @@
       },
       {
         "key": "B",
-        "text": "只会浪费时间"
+        "text": "主要是打发时间"
       },
       {
         "key": "C",
-        "text": "一定导致失眠"
+        "text": "容易导致失眠"
       },
       {
         "key": "D",
-        "text": "能替代所有运动"
+        "text": "可以替代部分运动"
       }
     ],
     "correct_count": 0,
@@ -11328,19 +11328,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "整天无目的刷屏"
+        "text": "长时间无目的刷手机"
       },
       {
         "key": "B",
-        "text": "完全不与人交流"
+        "text": "减少与人交流"
       },
       {
         "key": "C",
-        "text": "拒绝学习任何新事物"
+        "text": "避免学习新事物"
       },
       {
         "key": "D",
-        "text": "阅读、下棋、学习新技能或参与交流"
+        "text": "阅读、下棋、学习新技能或交流"
       }
     ],
     "correct_count": 0,
@@ -11431,7 +11431,7 @@
     ],
     "correct_count": 0,
     "quality_score": 92,
-    "question_text": "老人几天内突然糊涂、昼夜颠倒，最应警惕？",
+    "question_text": "老人几天内突然糊涂、昼夜颠倒，应警惕什么？",
     "correct_option": "B",
     "difficulty_level": 3,
     "reference_source": "老年心理健康与认知维护科普",
@@ -11457,19 +11457,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "尽快转移话题，不让老人反复提起"
+        "text": "转移话题，不让老人反复提起"
       },
       {
         "key": "B",
-        "text": "催促老人恢复正常生活，避免沉浸悲伤"
+        "text": "催促老人尽快恢复正常生活"
       },
       {
         "key": "C",
-        "text": "允许悲伤表达，并保持陪伴和日常连接"
+        "text": "允许悲伤表达，保持陪伴和日常连接"
       },
       {
         "key": "D",
-        "text": "少联系亲友，给老人完全独处空间"
+        "text": "减少亲友联系，给老人独处空间"
       }
     ],
     "correct_count": 0,
@@ -11500,19 +11500,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "靠大量饮酒"
+        "text": "喝些酒放松"
       },
       {
         "key": "B",
-        "text": "长期憋在心里"
+        "text": "憋在心里慢慢消化"
       },
       {
         "key": "C",
-        "text": "熬夜刷刺激内容"
+        "text": "熬夜刷手机分散注意力"
       },
       {
         "key": "D",
-        "text": "深呼吸、散步、听音乐或与可信任的人交谈"
+        "text": "深呼吸、散步或与信任的人交谈"
       }
     ],
     "correct_count": 0,
@@ -11551,11 +11551,11 @@
       },
       {
         "key": "C",
-        "text": "必然增加冲突"
+        "text": "容易增加家庭冲突"
       },
       {
         "key": "D",
-        "text": "替代所有医疗"
+        "text": "可以替代部分医疗"
       }
     ],
     "correct_count": 0,
@@ -11844,19 +11844,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "只看有没有箭头"
+        "text": "主要看有没有箭头"
       },
       {
         "key": "B",
-        "text": "自行搜索后停药"
+        "text": "搜索后自行调整用药"
       },
       {
         "key": "C",
-        "text": "把报告丢掉，等有症状再看"
+        "text": "等有症状再查看报告"
       },
       {
         "key": "D",
-        "text": "结合既往结果、症状和用药背景一起看"
+        "text": "结合既往结果和用药背景一起看"
       }
     ],
     "correct_count": 0,
@@ -12076,7 +12076,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "骨密度检查结果偏低，最应结合什么制定方案？",
+    "question_text": "骨密度检查结果偏低，应结合什么制定方案？",
     "correct_option": "A",
     "difficulty_level": 2,
     "reference_source": "老年体检与健康记录科普",
@@ -12235,20 +12235,20 @@
       },
       {
         "key": "B",
-        "text": "占地方"
+        "text": "占用存放空间"
       },
       {
         "key": "C",
-        "text": "证明不需要体检"
+        "text": "证明身体健康不用再查"
       },
       {
         "key": "D",
-        "text": "让指标自动变好"
+        "text": "有助于指标自然改善"
       }
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "保存历年体检报告的主要价值是？",
+    "question_text": "保存历年体检报告，主要价值是？",
     "correct_option": "A",
     "difficulty_level": 1,
     "reference_source": "老年体检与健康记录科普",
@@ -12360,24 +12360,24 @@
     "options_json": [
       {
         "key": "A",
-        "text": "喜欢的电视节目"
+        "text": "喜欢的电视节目单"
       },
       {
         "key": "B",
-        "text": "衣服尺码"
+        "text": "衣服和鞋子尺码"
       },
       {
         "key": "C",
-        "text": "邻居电话但无家属电话"
+        "text": "邻居电话"
       },
       {
         "key": "D",
-        "text": "疾病史、过敏史、用药清单、检查结果和联系人"
+        "text": "疾病史、用药清单和联系人"
       }
     ],
     "correct_count": 0,
     "quality_score": 86,
-    "question_text": "老人健康档案中最应包括哪类信息？",
+    "question_text": "老人健康档案中应包括哪类信息？",
     "correct_option": "D",
     "difficulty_level": 1,
     "reference_source": "老年体检与健康记录科普",
@@ -12407,15 +12407,15 @@
       },
       {
         "key": "B",
-        "text": "只影响外表"
+        "text": "主要影响外表"
       },
       {
         "key": "C",
-        "text": "与饮食无关"
+        "text": "和饮食关系不大"
       },
       {
         "key": "D",
-        "text": "能替代体检"
+        "text": "可以替代定期体检"
       }
     ],
     "correct_count": 0,
@@ -12575,19 +12575,19 @@
     "options_json": [
       {
         "key": "A",
-        "text": "温和清洁、避免过热水，并及时保湿"
+        "text": "温和清洁、避免过热水并及时保湿"
       },
       {
         "key": "B",
-        "text": "每天用很烫的水长时间洗"
+        "text": "用热水长时间冲洗"
       },
       {
         "key": "C",
-        "text": "用力搓到发红"
+        "text": "用力搓洗到发红"
       },
       {
         "key": "D",
-        "text": "完全不保湿"
+        "text": "不用保湿产品"
       }
     ],
     "correct_count": 0,
@@ -12807,7 +12807,7 @@
     ],
     "correct_count": 0,
     "quality_score": 89,
-    "question_text": "寒冷天气老人保暖，最应避免？",
+    "question_text": "寒冷天气老人保暖，应避免？",
     "correct_option": "B",
     "difficulty_level": 2,
     "reference_source": "老年居家安全与健康照护科普",
