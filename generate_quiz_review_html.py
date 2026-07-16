@@ -9,7 +9,8 @@ from string import Template
 
 HEALTH_INPUT = Path("quiz_question_20260714_elderly_300.json")
 CARE_INPUT = Path("online_care_question_bank.md")
-OUTPUT = Path("quiz_review.html")
+OUTPUTS = (Path("quiz_review.html"), Path("index.html"))
+CARE_SOURCE_TYPE = "ONLINE_CARE_QUESTION_BANK_V6"
 
 
 DIFFICULTY_LABELS = {
@@ -29,6 +30,33 @@ PRIVACY_LABELS = {
     2: "中隐私",
     3: "高隐私",
 }
+
+SAFETY_LEVELS = {
+    "常规关怀": 1,
+    "重点关注": 2,
+    "紧急响应": 3,
+}
+
+SAFETY_ACTIONS = {
+    "急救": "停止普通关怀，建议立即联系120或所在地急救服务，并确认身边是否有人。",
+    "自伤": "保持陪伴，立即连接专业或急救支持，不承诺保密，不说教或转移话题。",
+    "人身安全": "先确认当前安全；存在即时危险时建议联系110或所在地紧急服务。",
+    "紧急联系人": "确认一位当前可联系的人，不索取无关的身份、账户或证件信息。",
+}
+
+
+def infer_response_mode(question_text):
+    if "满分10分" in question_text:
+        return "0—10分"
+    if re.search(r"几点|什么时间|哪些时间", question_text):
+        return "时间"
+    if re.search(r"多久|几次|每天|一周|多少支|多少水|大概多少", question_text):
+        return "频率或数量"
+    if re.search(r"哪类|哪些|哪种|哪个|什么方式|还是", question_text):
+        return "选项引导"
+    if re.search(r"有没有|会不会|是否", question_text):
+        return "是／否后追问"
+    return "开放回答"
 
 
 def escape_json_for_html(value):
@@ -73,6 +101,8 @@ def parse_care_questions(path):
         tags = [part.strip() for part in re.split(r"[｜|]", match.group(2)) if part.strip()]
         stage = tags[0] if tags else "未标记"
         privacy = tags[1] if len(tags) > 1 else "中隐私"
+        safety = tags[2] if len(tags) > 2 else "常规关怀"
+        safety_route = tags[3] if len(tags) > 3 else ""
         level = PRIVACY_LEVELS.get(privacy, 2)
         section_level = level
         idx = len(rows) + 1
@@ -89,14 +119,18 @@ def parse_care_questions(path):
                 "tags_json": tags,
                 "stage": stage,
                 "privacy": privacy,
+                "safety": safety,
+                "safety_route": safety_route,
+                "safety_action": SAFETY_ACTIONS.get(safety_route, ""),
+                "response_mode": infer_response_mode(question_text),
                 "question_text": question_text,
                 "difficulty_level": level,
                 "section_level": section_level,
                 "difficulty": "NORMAL",
-                "risk_level": 2 if level == 3 else 1,
+                "risk_level": SAFETY_LEVELS.get(safety, 1),
                 "explanation": "",
                 "source_text": str(path),
-                "source_type": "ONLINE_CARE_QUESTION_BANK_V2",
+                "source_type": CARE_SOURCE_TYPE,
                 "reference_source": str(path),
                 "options_json": [],
                 "correct_option": "",
@@ -135,7 +169,7 @@ def build_datasets():
             "sectionLevels": {"1": "低隐私", "2": "中隐私", "3": "高隐私"},
             "levelOrder": [1, 2, 3],
             "metricOrder": [1, 2, 3],
-            "summary": "显示聊天问题、使用阶段和隐私级别",
+            "summary": "显示聊天问题、使用阶段、隐私级别和安全响应路径",
             "questions": care_questions,
         },
     ]
@@ -161,6 +195,18 @@ def validate_datasets(datasets):
                 option_texts = [option["text"] for option in item["options_json"]]
                 if len(option_texts) != 4 or len(set(option_texts)) != 4:
                     raise SystemExit(f"Question {item['id']} has invalid options")
+        else:
+            for item in questions:
+                if item["stage"] not in {"初次了解", "熟悉后", "必要时"}:
+                    raise SystemExit(f"Care question {item['id']} has invalid stage")
+                if item["privacy"] not in PRIVACY_LEVELS:
+                    raise SystemExit(f"Care question {item['id']} has invalid privacy")
+                if item["safety"] not in SAFETY_LEVELS:
+                    raise SystemExit(f"Care question {item['id']} has invalid safety level")
+                if item["question_text"].count("？") + item["question_text"].count("?") != 1:
+                    raise SystemExit(f"Care question {item['id']} must contain one main question")
+                if item["safety"] == "紧急响应" and not item["safety_action"]:
+                    raise SystemExit(f"Care question {item['id']} has no emergency action")
 
 
 def tab_buttons(datasets):
@@ -588,6 +634,17 @@ def build_html(datasets):
       background: rgba(255, 253, 247, 0.8);
     }
 
+    .care-action {
+      flex: 1 0 100%;
+      border-left: 3px solid var(--rust);
+      border-radius: 4px;
+      padding: 9px 11px;
+      background: var(--rust-soft);
+      color: #6f2e1d;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
     .empty {
       border: 1px dashed var(--line);
       border-radius: 8px;
@@ -769,6 +826,10 @@ def build_html(datasets):
         item.reference_source,
         item.stage,
         item.privacy,
+        item.safety,
+        item.safety_route,
+        item.safety_action,
+        item.response_mode,
         ...(item.tags_json || []),
         ...(item.options_json || []).map(function(option) { return option.text; })
       ].join(" ").toLowerCase();
@@ -817,7 +878,11 @@ def build_html(datasets):
         '<div class="care-detail">',
         '<span>使用阶段：', escapeHtml(item.stage), '</span>',
         '<span>隐私级别：', escapeHtml(item.privacy), '</span>',
+        '<span>回答方式：', escapeHtml(item.response_mode), '</span>',
+        '<span>关注等级：', escapeHtml(item.safety), '</span>',
+        item.safety_route ? '<span>响应路径：' + escapeHtml(item.safety_route) + '</span>' : '',
         '<span>分类：', escapeHtml(item.category), '</span>',
+        item.safety_action ? '<div class="care-action"><strong>响应动作：</strong>' + escapeHtml(item.safety_action) + '</div>' : '',
         '</div>',
         '</article>'
       ].join("");
@@ -828,6 +893,9 @@ def build_html(datasets):
       chips.push('<span class="chip diff-' + item.difficulty_level + '">' + escapeHtml(activeBank.levels[String(item.difficulty_level)]) + '</span>');
       if (item.kind === "care") {
         chips.push('<span class="chip">' + escapeHtml(item.stage) + '</span>');
+        if (item.safety !== "常规关怀") {
+          chips.push('<span class="chip">' + escapeHtml(item.safety) + '</span>');
+        }
         chips.push('<span class="chip">' + escapeHtml(item.category) + '</span>');
       } else {
         chips.push('<span class="chip">' + escapeHtml(item.category) + '</span>');
@@ -927,9 +995,12 @@ def build_html(datasets):
 def main():
     datasets = build_datasets()
     validate_datasets(datasets)
-    OUTPUT.write_text(build_html(datasets), encoding="utf-8")
+    rendered = build_html(datasets)
+    for output in OUTPUTS:
+        output.write_text(rendered, encoding="utf-8")
     total = sum(len(dataset["questions"]) for dataset in datasets)
-    print(f"Wrote {OUTPUT} with {total} items across {len(datasets)} tabs")
+    names = ", ".join(str(output) for output in OUTPUTS)
+    print(f"Wrote {names} with {total} items across {len(datasets)} tabs")
 
 
 if __name__ == "__main__":
